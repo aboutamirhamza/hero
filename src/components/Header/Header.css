@@ -1,0 +1,8 @@
+.menu li a:hover{
+    background: transparent!important;
+    color: linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%)!important;
+}
+
+nav a.active {
+   color: #632EE3;
+}
