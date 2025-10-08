@@ -1,9 +1,19 @@
 import React from 'react';
+import Banner from '../../Banner/Banner';
+import Trust from '../../Trust/Trust';
+import TrendingApps from '../../TrendingApps/TrendingApps';
+import { useLoaderData } from 'react-router';
+
 
 const Home = () => {
+    
+    const allData = useLoaderData();
+
     return (
         <div>
-            <h3>Hello Home</h3>
+            <Banner></Banner>
+            <Trust></Trust>
+            <TrendingApps allData={allData}></TrendingApps>
         </div>
     );
 };

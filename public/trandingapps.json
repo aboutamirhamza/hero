@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/RGhd5kQ4/1.jpg",
+    "title": "PhotoSnap",
+    "companyName": "VisionSoft",
+    "description": "A powerful photo editing app with AI-based filters and one-tap enhancements.",
+    "size": 56,
+    "reviews": 1423,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 638 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/bYb6Fkt/2.png",
+    "title": "TaskFlow",
+    "companyName": "Prodigy Apps",
+    "description": "Organize your day and manage your projects effortlessly with TaskFlow.",
+    "size": 32,
+    "reviews": 895,
+    "ratingAvg": 4.3,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 42 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 288 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/Zzbq6fk4/3.jpg",
+    "title": "FitPulse",
+    "companyName": "HealthSync",
+    "description": "Track workouts, calories, and sleep with real-time health insights.",
+    "size": 47,
+    "reviews": 2231,
+    "ratingAvg": 4.8,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 1401 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/4n8TN0vv/4.jpg",
+    "title": "NoteMate",
+    "companyName": "CloudSync",
+    "description": "A smart cloud-based note-taking app that syncs across all devices.",
+    "size": 25,
+    "reviews": 612,
+    "ratingAvg": 4.1,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 37 },
+      { "name": "3 star", "count": 152 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 165 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/zHnMsFBb/5.jpg",
+    "title": "Soundify",
+    "companyName": "BeatLab",
+    "description": "Stream and download millions of songs with personalized playlists.",
+    "size": 61,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1630 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/93p2d4tM/6.jpg",
+    "title": "ShopSmart",
+    "companyName": "EcomTech",
+    "description": "Compare prices, track discounts, and get alerts for best deals online.",
+    "size": 44,
+    "reviews": 1850,
+    "ratingAvg": 4.4,
+    "downloads": 370000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 95 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 670 },
+      { "name": "5 star", "count": 755 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/ztWgpKW/7.png",
+    "title": "LearnX",
+    "companyName": "EduSphere",
+    "description": "Interactive learning platform with coding, design, and language courses.",
+    "size": 78,
+    "reviews": 1575,
+    "ratingAvg": 4.7,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 815 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/SDN4R8BH/8.png",
+    "title": "TravelGo",
+    "companyName": "TripWise",
+    "description": "Plan trips, book hotels, and explore destinations all in one app.",
+    "size": 53,
+    "reviews": 2010,
+    "ratingAvg": 4.5,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 62 },
+      { "name": "2 star", "count": 83 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 590 },
+      { "name": "5 star", "count": 1035 }
+    ]
+  }
+]

@@ -1,10 +1,9 @@
-import { Link, NavLink, useNavigate } from 'react-router';
-import Logo from '../../assets/logo.png'
-import './Header.css'
-import { FaHome } from "react-icons/fa";
+import { FaGithub, FaHome } from "react-icons/fa";
 import { IoLogoAppleAppstore } from "react-icons/io5";
 import { RiInstallFill } from "react-icons/ri";
-import { FaGithub } from "react-icons/fa";
+import { Link, NavLink, useNavigate } from 'react-router';
+import Logo from '../../assets/logo.png';
+import './Header.css';
 const Header = () => {
 
     const navigate = useNavigate();
@@ -107,9 +106,12 @@ const Header = () => {
                     </div>
 
                     <div className="navbar-end">
-                    {/* <a className="btn">Log in</a> */}
-                    <div class="rounded bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] cursor-pointer">
-                        <Link to="https://github.com/aboutamirhamza" target='_blank'><button class="px-4 py-2 text-white flex items-center gap-3 cursor-pointer"><FaGithub /> Contribute</button></Link>
+                    <div className="rounded bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] cursor-pointer">
+                        <Link to="https://github.com/aboutamirhamza" target='_blank'>
+                        <button class="px-4 py-2 text-white flex items-center gap-3 cursor-pointer">
+                            <FaGithub /> Contribute
+                        </button>
+                        </Link>
                     </div>
 
                     </div>
