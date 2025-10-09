@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <div className='bg-[#001931]'>
-                <div className='max-w-[1140px] mx-auto'>
+                <div className='max-w-7xl mx-auto'>
                     <div className='flex py-9 justify-between px-10'>
                         <div className='flex gap-4 items-center'>
                             <img className='w-10 h-10' src={footerLogo} alt="" />

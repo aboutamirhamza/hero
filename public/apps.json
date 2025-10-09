@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/NgNwV3LP/1.png",
+    "title": "Facebook",
+    "companyName": "Social Media Platform",
+    "description": "Facebook is a social networking site where users can create profiles, share posts, photos, and videos, connect with friends, and join groups or communities. It also offers messaging through Messenger, events, marketplace for buying/selling, and advertising tools for businesses. It’s owned by Meta and is one of the largest social platforms worldwide.",
+    "size": 25,
+    "reviews": 150,
+    "ratingAvg": 4.2,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/9m2sLjzw/2.webp",
+    "title": "Instagram",
+    "companyName": "Social Media / Photo & Video Sharing App",
+    "description": "Instagram is a mobile-focused platform for sharing photos, videos, and stories with followers. Users can apply filters, use reels, shop online, and explore content through hashtags and the explore tab. Instagram is also widely used by influencers and businesses for marketing and engagement.",
+    "size": 30,
+    "reviews": 200,
+    "ratingAvg": 3.8,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/rKztWvSj/3.jpg",
+    "title": "Twitter (X)",
+    "companyName": "Social Networking / Microblogging Platform",
+    "description": "Twitter (now X) allows users to post short messages called tweets (text, images, videos, links). It’s used for real-time news, trends, public discussions, and networking. Users can follow accounts, like/retweet posts, and participate in conversations using hashtags.",
+    "size": 45,
+    "reviews": 300,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/N68V2s1m/4.webp",
+    "title": "WhatsApp",
+    "companyName": "Messaging App",
+    "description": "WhatsApp is an instant messaging app that supports text messaging, voice and video calls, file sharing, and group chats. It uses end-to-end encryption for secure communication. It’s widely used globally for personal and business communication.",
+    "size": 55,
+    "reviews": 120,
+    "ratingAvg": 3.5,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 15 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/QFm2bW2g/5.png",
+    "title": "ChatGPT",
+    "companyName": "AI Conversational Model / Tool",
+    "description": "ChatGPT is an AI-based chatbot developed by OpenAI. It can generate text, answer questions, assist with coding, writing, learning, and problem-solving. ChatGPT uses large language models to understand context and provide human-like responses. It can be accessed via web, API, or integrated into apps.",
+    "size": 40,
+    "reviews": 180,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/ynZPpvr1/6.png",
+    "title": "GitHub",
+    "companyName": "Version Control / Development Platform",
+    "description": "GitHub is a platform for hosting and collaborating on code using Git. Developers can manage repositories, track changes, collaborate through pull requests, and review code. GitHub also supports CI/CD, project management, and open-source collaboration.",
+    "size": 35,
+    "reviews": 220,
+    "ratingAvg": 4.1,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/d0gwsNdN/7.webp",
+    "title": "Messenger (Facebook Messenger)",
+    "companyName": "Messaging App",
+    "description": "Messenger is a standalone messaging app from Facebook for instant communication. Users can send messages, voice/video calls, group chats, stickers, and payments. It integrates with Facebook but also works independently using phone numbers.",
+    "size": 60,
+    "reviews": 90,
+    "ratingAvg": 3.2,
+    "downloads": 8000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 10 },
+      { "name": "5 star", "count": 10 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/qMRZbWM1/8.png",
+    "title": "YouTube",
+    "companyName": "Video Sharing / Streaming Platform",
+    "description": "YouTube allows users to upload, share, and watch videos. It features channels, playlists, live streaming, monetization options for creators, and algorithmic content recommendations. It is widely used for entertainment, tutorials, and educational content.",
+    "size": 28,
+    "reviews": 160,
+    "ratingAvg": 4.3,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/n8nxXSGP/9.png",
+    "title": "Discord",
+    "companyName": "Communication / Community Platform",
+    "description": "Discord is a platform for text, voice, and video communication, popular among gamers, developers, and communities. Users can create servers with channels, roles, and permissions. It supports bots, screen sharing, streaming, and community engagement.",
+    "size": 50,
+    "reviews": 300,
+    "ratingAvg": 4.6,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/QyhWB1r/10.png",
+    "title": "Udemy",
+    "companyName": "Online Learning Platform",
+    "description": "Udemy is an online education platform offering courses on thousands of subjects, including coding, design, business, and personal development. Instructors can upload courses, and learners can study at their own pace. Courses include videos, quizzes, and downloadable resources.",
+    "size": 32,
+    "reviews": 140,
+    "ratingAvg": 3.9,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 35 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/BKKvqtnt/11.png",
+    "title": "Zoom",
+    "companyName": "Video Conferencing / Communication Tool",
+    "description": "Zoom is a video conferencing app used for meetings, webinars, and online collaboration. It supports video/audio calls, screen sharing, virtual backgrounds, chat, and recording. It became popular for remote work, education, and virtual events.",
+    "size": 42,
+    "reviews": 210,
+    "ratingAvg": 4.0,
+    "downloads": 24000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/279NKGFY/12.png",
+    "title": "Figma",
+    "companyName": "Design / UI-UX Tool",
+    "description": "Figma is a cloud-based design tool for interface design, prototyping, and collaboration. Teams can work together in real-time on web, app, or product designs. It includes vector editing, component libraries, and plugins for enhanced workflows.",
+    "size": 38,
+    "reviews": 190,
+    "ratingAvg": 4.4,
+    "downloads": 26000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 75 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/LdSqPkrR/13.png",
+    "title": "Brave Browser",
+    "companyName": "Web Browser",
+    "description": "Brave is a privacy-focused web browser that blocks ads and trackers by default. It uses Chromium as its base, supports extensions, and includes features like Brave Rewards (BAT cryptocurrency) for opting into privacy-respecting ads.",
+    "size": 46,
+    "reviews": 170,
+    "ratingAvg": 3.7,
+    "downloads": 21000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 35 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/HTtfLs8T/14.png",
+    "title": "Mozilla Firefox",
+    "companyName": "Web Browser",
+    "description": "Firefox is an open-source web browser focused on privacy, speed, and customization. It includes features like tracking protection, password manager, developer tools, and extensions to enhance web browsing security and experience.",
+    "size": 52,
+    "reviews": 230,
+    "ratingAvg": 4.2,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/R4kJR0RS/15.webp",
+    "title": "Google Chrome",
+    "companyName": "Web Browser",
+    "description": "Chrome is a fast, cross-platform web browser by Google. It supports extensive extensions, synchronization across devices, developer tools, and integrates with Google services. Known for speed, simplicity, and frequent updates.",
+    "size": 30,
+    "reviews": 180,
+    "ratingAvg": 3.6,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 30 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/Z6zzB4f3/15.png",
+    "title": "Blender",
+    "companyName": "3D Modeling / Animation Software",
+    "description": "Blender is an open-source 3D creation suite. It supports modeling, sculpting, texturing, rigging, animation, rendering, compositing, motion tracking, and even game creation. Widely used for 3D art, VFX, and animation, it’s completely free and highly versatile.",
+    "size": 34,
+    "reviews": 140,
+    "ratingAvg": 4.1,
+    "downloads": 17000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/NdxJynb2/16.jpg",
+    "title": "Maya",
+    "companyName": "3D Modeling / Animation Software",
+    "description": "Autodesk Maya is a professional 3D software used for modeling, animation, visual effects, and rendering. It’s widely used in film, TV, and game industries for creating high-quality 3D assets and animations. It offers advanced rigging, dynamics, and simulation tools.",
+    "size": 48,
+    "reviews": 200,
+    "ratingAvg": 4.5,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/nNjXLq9W/17.png",
+    "title": "Adobe Photoshop",
+    "companyName": "Image Editing / Graphic Design Software",
+    "description": "Photoshop is a powerful image editing and graphic design tool. It allows photo manipulation, digital painting, retouching, and compositing. It’s widely used by photographers, designers, and artists for creative work.",
+    "size": 29,
+    "reviews": 160,
+    "ratingAvg": 3.9,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 45 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/5XWqBpzP/18.png",
+    "title": "Adobe Illustrator",
+    "companyName": "Vector Graphics Software",
+    "description": "Illustrator is used for creating vector-based graphics like logos, icons, typography, and illustrations. It allows scalable artwork without loss of quality and integrates with other Adobe tools for design workflows.",
+    "size": 36,
+    "reviews": 190,
+    "ratingAvg": 4.0,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/C3sQnq8Y/19.webp",
+    "title": "Adobe Premiere Pro",
+    "companyName": "Video Editing Software",
+    "description": "Premiere Pro is a professional video editing software used for film, TV, and web content. It supports timeline editing, effects, transitions, color grading, and audio editing. It’s part of Adobe Creative Cloud, widely used by video professionals.",
+    "size": 50,
+    "reviews": 220,
+    "ratingAvg": 4.3,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 85 }
+    ]
+  }
+]

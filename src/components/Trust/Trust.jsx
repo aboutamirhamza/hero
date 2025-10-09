@@ -4,7 +4,7 @@ const Trust = () => {
     return (
         <div>
             <div className='bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] py-20'>
-                <div className='max-w-[1140px] mx-auto'>
+                <div className='max-w-7xl mx-auto'>
                     <h3 className='text-center text-white text-5xl font-bold capitalize pb-10'>Trusted by Millions, Built for You</h3>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                         <div className='text-center'>

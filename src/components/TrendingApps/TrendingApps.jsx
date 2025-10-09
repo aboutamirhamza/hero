@@ -18,8 +18,8 @@ const TrendingApps = ({allData}) => {
         <div>
             <div className='py-10'>
                 <h3 className='text-center text-5xl font-bold capitalize pb-4'>Trending Apps</h3>
-                <p className='text-center text-[#627382] text-[20px] pb-10'>Explore All Trending Apps on the Market developed by us</p>
-                <div className='max-w-[1140px] mx-auto'>
+                <p className='text-center text-[#627382] text-[20px] pb-10 px-6'>Explore All Trending Apps on the Market developed by us</p>
+                <div className='max-w-7xl mx-auto'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6'>
 
                         {
