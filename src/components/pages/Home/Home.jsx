@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { use } from 'react';
 import Banner from '../../Banner/Banner';
 import Trust from '../../Trust/Trust';
 import TrendingApps from '../../TrendingApps/TrendingApps';
-import { useLoaderData } from 'react-router';
 
 
-const Home = () => {
+const Home = ({homeData}) => {
     
-    const allData = useLoaderData();
+    const allData = use(homeData);
 
     return (
         <div>

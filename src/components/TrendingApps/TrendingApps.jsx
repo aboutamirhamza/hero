@@ -1,9 +1,18 @@
+import { useNavigate } from 'react-router';
 import downLoad from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import './TrandingApps.css'
 const TrendingApps = ({allData}) => {
 
-    // const {image, title, ratingAvg, downloads} = data;
+    const navigate  = useNavigate();
+
+    const handleNavigate = (id) => {
+        navigate(`/trandyappsdetails/${id}`);
+    }
+
+    const handleshowAll = () => {
+        navigate('/apps');
+    }
 
     return (
         <div>
@@ -14,8 +23,8 @@ const TrendingApps = ({allData}) => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6'>
 
                         {
-                            allData.map(data => 
-                                <div className='bg-white p-4 rounded-lg cursor-pointer tapps'>
+                            allData.map((data, index) => 
+                                <div onClick={() => handleNavigate(data.id)} key={index} className='bg-white p-4 rounded-lg cursor-pointer tapps'>
                                     <div><img className='object-cover rounded-lg lg:w-[316px] lg:h-[316px] ' src={data.image} alt="" /></div>
                                     <h3 className='text-[#001931] text-[20px] py-4'>{data.title}</h3>
                                     <div className='flex justify-between items-center'>
@@ -33,6 +42,7 @@ const TrendingApps = ({allData}) => {
                         }
                         
                     </div>
+                    <div className='flex justify-center items-center py-10'><button onClick={handleshowAll} className='rounded bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] cursor-pointer text-white px-6 py-3'>Show All</button></div>
                 </div>
             </div>
         </div>

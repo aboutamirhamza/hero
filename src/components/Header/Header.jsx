@@ -108,7 +108,7 @@ const Header = () => {
                     <div className="navbar-end">
                     <div className="rounded bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] cursor-pointer">
                         <Link to="https://github.com/aboutamirhamza" target='_blank'>
-                        <button class="px-4 py-2 text-white flex items-center gap-3 cursor-pointer">
+                        <button className="px-4 py-2 text-white flex items-center gap-3 cursor-pointer">
                             <FaGithub /> Contribute
                         </button>
                         </Link>
