@@ -5,6 +5,7 @@ import { toast, Bounce } from 'react-toastify';
 const Installation = () => {
 
     const [installedApps, setInstalledApps] = useState([]);
+    const [sortType, setSortType] = useState('');
 
     useEffect(() => {
     const apps = JSON.parse(localStorage.getItem('installedApps')) || [];
@@ -29,6 +30,21 @@ const Installation = () => {
 });
   };
 
+const handleSort = (e) => {
+    const value = e.target.value;
+    setSortType(value);
+
+    let sortedApps = [...installedApps];
+
+    if (value === 'Low-High') {
+      sortedApps.sort((a, b) => a.downloads - b.downloads);
+    } else if (value === 'High-Low') {
+      sortedApps.sort((a, b) => b.downloads - a.downloads);
+    }
+
+    setInstalledApps(sortedApps);
+  };
+
 
     return (
         <div className='max-w-7xl mx-auto py-20'>
@@ -42,10 +58,13 @@ const Installation = () => {
                 {installedApps.length} Apps Found
                 </h3>
                 <div>
-                <select defaultValue="Pick a browser" className="select lg:w-[300px] bg-[#F5F5F5]">
-                    <option disabled>Sort By</option>
-                    <option>Size</option>
-                    <option>Download</option>
+                <select
+                onChange={handleSort}
+                value={sortType}
+                defaultValue="Pick a browser" className="select lg:w-[300px] bg-[#F5F5F5]">
+                    <option value=''>Sort By</option>
+                    <option>Low-High</option>
+                    <option>High-Low</option>
                 </select>
                 </div>
             </div>
