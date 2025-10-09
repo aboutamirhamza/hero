@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLoaderData } from 'react-router';
 import iconDownload from '../../../assets/icon-downloads.png';
 import iconRating from '../../../assets/icon-ratings.png';

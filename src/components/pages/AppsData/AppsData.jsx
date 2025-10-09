@@ -1,13 +1,20 @@
-import React, { use } from 'react';
-import downLoad from '../../../assets/icon-downloads.png';
-import star from '../../../assets/icon-ratings.png';
+import { use, useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { useNavigate } from 'react-router';
+import downLoad from '../../../assets/icon-downloads.png';
+import star from '../../../assets/icon-ratings.png';
 const AppsData = ({appData}) => {
-
+    
     const appsData = use(appData);
-
+    const [search, setSearch] = useState('');
     const navigate  = useNavigate();
+
+    const filteredApps = search
+    ? appsData.filter(app =>
+        app.title.toLowerCase().includes(search.toLowerCase())
+      )
+    : appsData;
+
 
     const handleNavigate = (id) => {
         navigate(`/apps/appsdetails/${id}`);
@@ -23,32 +30,52 @@ const AppsData = ({appData}) => {
                 </div>
 
                 <div className='flex justify-between items-center px-6 mb-10'>
-                    <h3 className='text-[#001931] text-2xl font-semibold'>({appsData.length}) Apps Found</h3>
-                    <div className='p-4 border border-[#D2D2D2] rounded-lg flex gap-2 items-center lg:w-[300px]'><CiSearch /> <input className='bg-transparent outline-none' type="text" name="" placeholder='Search Apps' /></div>
+                    <h3 className='text-[#001931] text-2xl font-semibold'>({filteredApps.length}) Apps Found</h3>
+                    <div className='p-4 border border-[#D2D2D2] rounded-lg flex gap-2 items-center lg:w-[300px]'>
+                    <CiSearch />
+                    <input
+                        type="text"
+                        placeholder='Search Apps'
+                        className='bg-transparent outline-none w-full'
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
+                    </div>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6'>
-                
-                {
-                    appsData.map((data, index) => 
-                        <div onClick={() => handleNavigate(data.id)} key={index} className='bg-white p-4 rounded-lg cursor-pointer tapps'>
-                            <div><img className='object-cover rounded-lg lg:w-[316px] lg:h-[316px]' src={data.image} alt="" /></div>
-                            <h3 className='text-[#001931] text-[20px] py-4'>{data.title}</h3>
-                            <div className='flex justify-between items-center'>
-                                <div className='flex items-center gap-2 bg-[#F1F5E8] p-2 rounded-lg'>
-                                    <img className='w-4 h-4' src={downLoad} alt="" />
-                                    <h3 className='text-[#00D390] text-base'>{data.downloads}</h3>
-                                </div>
-                                <div className='flex items-center gap-4 bg-[#FFF0E1] p-2 rounded-lg'>
-                                    <img className='w-4 h-4' src={star} alt="" />
-                                    <h3 className='text-[#F81] text-base'>{data.ratingAvg}</h3>
-                                </div>
+
+                {filteredApps.length > 0 ? (
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6'>
+                    {filteredApps.map((data) => (
+                        <div
+                        key={data.id}
+                        onClick={() => handleNavigate(data.id)}
+                        className='bg-white p-4 rounded-lg cursor-pointer tapps'
+                        >
+                        <div>
+                            <img
+                            className='object-cover rounded-lg lg:w-[316px] lg:h-[316px]'
+                            src={data.image}
+                            alt={data.title}
+                            />
+                        </div>
+                        <h3 className='text-[#001931] text-[20px] py-4'>{data.title}</h3>
+                        <div className='flex justify-between items-center'>
+                            <div className='flex items-center gap-2 bg-[#F1F5E8] p-2 rounded-lg'>
+                            <img className='w-4 h-4' src={downLoad} alt="" />
+                            <h3 className='text-[#00D390] text-base'>{data.downloads}</h3>
+                            </div>
+                            <div className='flex items-center gap-4 bg-[#FFF0E1] p-2 rounded-lg'>
+                            <img className='w-4 h-4' src={star} alt="" />
+                            <h3 className='text-[#F81] text-base'>{data.ratingAvg}</h3>
                             </div>
                         </div>
-                    )
-                }
-                
-            </div>
+                        </div>
+                    ))}
+                    </div>
+                ) : (
+                    <div className='text-center text-5xl text-[#627382] py-20'>App Not Found</div>
+                )}
             </div>
         </div>
     );
