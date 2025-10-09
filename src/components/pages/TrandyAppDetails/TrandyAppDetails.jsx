@@ -3,10 +3,43 @@ import iconDownload from '../../../assets/icon-downloads.png';
 import iconRating from '../../../assets/icon-ratings.png';
 import iconReview from '../../../assets/icon-review.png';
 import RatingsChart from '../../RatingsChart/RatingsChart';
+import { useEffect, useState } from 'react';
+import { toast,Bounce } from 'react-toastify';
 const TrandyAppDetails = () => {
 
     const trandyApp = useLoaderData();
-    const {image, title, companyName, description, size, reviews, ratingAvg, downloads} = trandyApp;
+    const {id, image, title, companyName, description, size, reviews, ratingAvg, downloads} = trandyApp;
+
+    const [isInstalled, setIsInstalled] = useState(false);
+
+    useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+    const exists = installedApps.some(app => app.id === id);
+    setIsInstalled(exists);
+  }, [id]);
+
+  const handleInstall = () => {
+    const installedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+    const exists = installedApps.some(app => app.id === id);
+
+    if (!exists) {
+      installedApps.push(trandyApp);
+      localStorage.setItem('installedApps', JSON.stringify(installedApps));
+      setIsInstalled(true);
+    }
+
+    toast.success('Install App Successfully', {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: false,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    transition: Bounce,
+});
+  };
 
     return (
         <div>
@@ -34,7 +67,14 @@ const TrandyAppDetails = () => {
                                 <p className='text-[#001931] text-[40px] font-extrabold'>{reviews}</p>
                             </div>
                         </div>
-                        <button className='bg-[#00D390] px-5 py-3 text-white rounded-lg cursor-pointer transition-colors hover:bg-[#5bad93]'>Install Now ({size} MB)</button>
+                        <button 
+                        onClick={handleInstall}
+                        disabled={isInstalled}
+                        className={`px-5 py-3 rounded-lg text-white transition-colors ${
+                                isInstalled ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#5bad93]'
+                            }`}>
+                            {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
+                        </button>
                         <div className='border-t border-[#001931] my-6 w-full'></div>
                     </div>
                 </div>
