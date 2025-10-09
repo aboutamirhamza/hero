@@ -1,13 +1,12 @@
-import React from 'react';
 import { useLoaderData } from 'react-router';
-import iconDownload from '../../../assets/icon-downloads.png'
-import iconRating from '../../../assets/icon-ratings.png'
-import iconReview from '../../../assets/icon-review.png'
+import iconDownload from '../../../assets/icon-downloads.png';
+import iconRating from '../../../assets/icon-ratings.png';
+import iconReview from '../../../assets/icon-review.png';
 import RatingsChart from '../../RatingsChart/RatingsChart';
 const TrandyAppDetails = () => {
 
     const trandyApp = useLoaderData();
-    const {image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings} = trandyApp;
+    const {image, title, companyName, description, size, reviews, ratingAvg, downloads} = trandyApp;
 
     return (
         <div>
